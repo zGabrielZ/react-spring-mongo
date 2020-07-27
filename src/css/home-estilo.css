@@ -1,0 +1,17 @@
+@media(max-width:481px){
+    .bt .um-btn{
+        font-size: 20px;
+    }
+
+    .bt .dois-btn{
+        font-size: 20px;
+        width: 100%;
+        margin: 10px auto;
+    }
+}
+
+@media (min-width:500px) and (max-width:2560px){
+    .bt .dois-btn{
+        margin-left: 20px;
+    }
+}
