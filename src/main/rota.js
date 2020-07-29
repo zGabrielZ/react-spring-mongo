@@ -11,13 +11,11 @@ function Rota() {
     return (
         <HashRouter>
             <Switch>
-                <Route path="/clube/:id?" component={Clube}></Route>
-                <Route path="/clube" component={Clube}></Route>
                 <Route path="/consulta-time" component={ConsultaTime}></Route>
+                <Route path="/clube/:id?" component={Clube}></Route>
                 <Route path="/nacionalidade" component={Nacionalidade}></Route>
                 <Route path="/consulta-jogador/:id?" component={ConsultaJogador}></Route>
                 <Route path="/jogador/:id?" component={Jogador}></Route>
-                <Route path="/jogador" component={Jogador}></Route>
                 <Route path="/" component={Home}></Route>
             </Switch>
         </HashRouter>
